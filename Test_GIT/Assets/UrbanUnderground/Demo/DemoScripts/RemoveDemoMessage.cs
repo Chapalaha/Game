@@ -7,3 +7,4 @@ public class RemoveDemoMessage : MonoBehaviour {
 		Destroy (this.gameObject);
 	}
 }
+//sfsfsf
