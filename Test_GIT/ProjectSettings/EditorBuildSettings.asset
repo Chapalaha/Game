@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
-    guid: 7b9800b98f0e72a4da8ab8757607cc77
-  - enabled: 0
-    path: Assets/UrbanUnderground/Demo/Demo2.unity
-    guid: afd9c784530c33247a19ef36f5665b49
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7683c6ca8ecfcfb499231dcca9e8939d
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: bff052b61aeef35448f763d3cb2e2224
+  - enabled: 1
+    path: Assets/Scenes/Podezd.unity
+    guid: a1412732ff1a00545b78465fa667dc74
   - enabled: 1
     path: Assets/Scenes/Street.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
