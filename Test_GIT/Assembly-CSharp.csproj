@@ -58,6 +58,7 @@
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\TicketMachine.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\TrainDoors.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\VendingMachine.cs" />
+    <Compile Include="Assets\Scenes\MainMenu\StartGame.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\CameraOrbit.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\RemoveDemoMessage.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Timer.cs" />
@@ -89,10 +90,10 @@
     <Compile Include="Assets\russian_buildings\scripts\decal_shift.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\FOVKick.cs" />
+    <Compile Include="Assets\Scenes\MainMenu\ExitGame.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Gate.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\LerpControlledBob.cs" />
-    <Compile Include="Assets\Scenes\MainMenu\StartGame.cs" />
-    <Compile Include="Assets\Scenes\MainMenu\ExitGame.cs" />
+    <Compile Include="Assets\Scenes\Room\ShowNotify.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
