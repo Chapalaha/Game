@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\OpenT.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\BakeAllProbes.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\TicketMachine.cs" />
@@ -91,11 +92,13 @@
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\FOVKick.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Gate.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\LerpControlledBob.cs" />
+    <Compile Include="Assets\Scripts\ShowNotify.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\___www.unityassetcollection.com___.txt" />
+    <None Include="Assets\HouseFurniturePack\Readme\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\PSXEffects\Shaders\Resources\PSXEffects.cginc" />
