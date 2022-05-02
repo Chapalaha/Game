@@ -52,7 +52,7 @@ public class Train1 : MonoBehaviour {
 	}*/
 
 	public void TrainDepart() {
-		if (playerInside) 		mainPASystem.volume = 0.2f;
+		if (playerInside) 		/*mainPASystem.volume = 0.2f;*/
 		StartCoroutine (leaveStation ());
 		StartCoroutine (Depart ());
 	}
@@ -62,9 +62,9 @@ public class Train1 : MonoBehaviour {
 	}
 
 	IEnumerator LaunchTrain(float s) {
-		mainPASystem.Stop();
-		mainPASystem.clip = trainArriving;
-		mainPASystem.Play();
+		//mainPASystem.Stop();
+		//mainPASystem.clip = trainArriving;
+		//mainPASystem.Play();
 		yield return new WaitForSeconds(s);
 		foreach (Light light in lights) {
 			light.enabled = true;
@@ -79,7 +79,7 @@ public class Train1 : MonoBehaviour {
 		td.doorsMoving = false;
 		playerInside = true;
 		o.transform.SetParent(this.transform);
-		mainPASystem.volume = 0.4f;
+		//mainPASystem.volume = 0.4f;
 		current.volume = 1;
 		current.spatialBlend = 0;
 	}
@@ -88,7 +88,7 @@ public class Train1 : MonoBehaviour {
 		o.transform.SetParent(null);
 		playerInside = false;
 		current.volume = 0.6f;
-		mainPASystem.volume = 0.9f;
+		//mainPASystem.volume = 0.9f;
 		current.spatialBlend = 1;
 	}
 
@@ -119,8 +119,8 @@ public class Train1 : MonoBehaviour {
 	IEnumerator Depart() {
 		yield return new WaitForSeconds(4f);
 		anim.SetTrigger("depart");
-		mainPASystem.clip = ambient;
-		mainPASystem.Play ();
+		//mainPASystem.clip = ambient;
+		//mainPASystem.Play ();
 		if (playerInside) {
 			if (Camera.main.GetComponent<CameraShake> () == null) {
 				Camera.main.gameObject.AddComponent<CameraShake> ();
@@ -150,7 +150,7 @@ public class Train1 : MonoBehaviour {
 		}
 		this.transform.position = startPos.position;
 		anim.SetTrigger ("reset");
-		mainPASystem.volume = 1;
+		//mainPASystem.volume = 1;
 	}
 
 	void OnGUI(){
