@@ -11,8 +11,6 @@ public class OpenT : MonoBehaviour
 	public float doorClosedAngle = 0.0f;
 	public float speed = 10.0f;
 
-	public AudioClip openSound;
-	public AudioClip closeSound;
 
 	Quaternion doorOpen = Quaternion.identity;
 	Quaternion doorClosed = Quaternion.identity;
@@ -45,7 +43,7 @@ public class OpenT : MonoBehaviour
 
 	void Update()
 	{
-		if (Vector3.Distance(player.position, this.transform.position) < 1.25f)
+		if (Vector3.Distance(player.position, this.transform.position) < 1.24f)
 		{
 			playerInRange = true;
 			if (Input.GetKeyDown(KeyCode.E))
@@ -53,12 +51,12 @@ public class OpenT : MonoBehaviour
 				if (doorStatus)
 				{
 					StartCoroutine(this.moveDoor(doorClosed));
-					AudioSource.PlayClipAtPoint(closeSound, this.transform.position);
+					
 				}
 				else
 				{
 					StartCoroutine(this.moveDoor(doorOpen));
-					AudioSource.PlayClipAtPoint(openSound, this.transform.position);
+					
 				}
 			}
 		}

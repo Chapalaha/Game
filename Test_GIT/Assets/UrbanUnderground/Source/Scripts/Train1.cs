@@ -64,7 +64,7 @@ public class Train1 : MonoBehaviour {
 	IEnumerator LaunchTrain(float s) {
 		//mainPASystem.Stop();
 		//mainPASystem.clip = trainArriving;
-		//mainPASystem.Play();
+		//mainPAS	ystem.Play();
 		yield return new WaitForSeconds(s);
 		foreach (Light light in lights) {
 			light.enabled = true;

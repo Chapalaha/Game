@@ -44,11 +44,11 @@ public class ServiceDoor : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.E)) {
 				if (doorStatus) {
 					StartCoroutine (this.moveDoor (doorClosed));
-					AudioSource.PlayClipAtPoint (closeSound, this.transform.position);
-				} else {
+                    AudioSource.PlayClipAtPoint(closeSound, this.transform.position);
+                } else {
 					StartCoroutine (this.moveDoor (doorOpen));
-					AudioSource.PlayClipAtPoint (openSound, this.transform.position);
-				}
+                    AudioSource.PlayClipAtPoint(openSound, this.transform.position);
+                }
 			}
 		} else {
 			playerInRange = false;

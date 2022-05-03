@@ -59,7 +59,9 @@
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\BakeAllProbes.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\TicketMachine.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\TrainDoors.cs" />
+    <Compile Include="Assets\Scripts\Unlock.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\VendingMachine.cs" />
+    <Compile Include="Assets\Counter.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\CameraOrbit.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\RemoveDemoMessage.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Timer.cs" />
@@ -72,9 +74,11 @@
     <Compile Include="Assets\PSXEffects\Example\Scripts\ObjectRotate.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\LeftDoor.cs" />
+    <Compile Include="Assets\Scripts\Counter_1.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\CrossPlatformInput\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\DemoInfo.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\PropertyModifier.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\RightDoor.cs" />
     <Compile Include="Assets\PSXEffects\Scripts\New Folder\FlyCamera.cs" />
     <Compile Include="Assets\PSXEffects\Scripts\PSXEffects.cs" />
@@ -83,6 +87,7 @@
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Train_PA.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\Respawner.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\CurveControlledBob.cs" />
+    <Compile Include="Assets\Scripts\Counter_all.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\PSXEffects\Example\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\CrossPlatformInput\PlatformSpecific\MobileInput.cs" />
@@ -93,8 +98,8 @@
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\FOVKick.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Gate.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\LerpControlledBob.cs" />
-    <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Compile Include="Assets\Scripts\Unlock.cs" />
+    <Compile Include="Assets\Scripts\ExitHouse.cs" />
+    <Compile Include="Assets\Scripts\RoomDoors.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

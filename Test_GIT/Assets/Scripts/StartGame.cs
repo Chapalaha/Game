@@ -7,7 +7,7 @@ public class StartGame : MonoBehaviour
 {
     // Start is called before the first frame update
      void StartG() {
-        SceneManager.LoadScene("Metro");
+        SceneManager.LoadScene("Room");
     }
     
 }
