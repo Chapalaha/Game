@@ -137,7 +137,7 @@ public class Train1 : MonoBehaviour {
 
 	IEnumerator RestartLevel() {
 		yield return new WaitForSeconds (20f);
-		SceneManager.LoadScene ("SampleScene");
+		SceneManager.LoadScene ("End");
 	}
 
 	IEnumerator DisableTrain(){
@@ -153,14 +153,14 @@ public class Train1 : MonoBehaviour {
 		//mainPASystem.volume = 1;
 	}
 
-	void OnGUI(){
-		if (playerInside) {
-			GUIStyle style = new GUIStyle ();
-			style.fontSize = 22;
-			style.normal.textColor = Color.white;
-			Rect rect = new Rect (Screen.width - (Screen.width - 50), Screen.height - 50f, 300, 45);
-			GUI.Label (rect, "If you remain inside the train, the level will be reloaded", style);
-		}
-	}
+	//void OnGUI(){
+	//	if (playerInside) {
+	//		GUIStyle style = new GUIStyle ();
+	//		style.fontSize = 22;
+	//		style.normal.textColor = Color.white;
+	//		Rect rect = new Rect (Screen.width - (Screen.width - 50), Screen.height - 50f, 300, 45);
+	//		GUI.Label (rect, "If you remain inside the train, the level will be reloaded", style);
+	//	}
+	//}
 		
 }
