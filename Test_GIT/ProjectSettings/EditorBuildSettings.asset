@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Podezd.unity
     guid: a1412732ff1a00545b78465fa667dc74
   - enabled: 1
+    path: Assets/Scenes/Street.unity
+    guid: a373d2035193fc342a2a3aa9cc526b28
+  - enabled: 1
     path: Assets/Scenes/Metro.unity
     guid: 5520dbc04dcfa2141bcfdb2731ebb574
   - enabled: 1

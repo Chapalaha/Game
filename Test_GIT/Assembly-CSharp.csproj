@@ -83,7 +83,10 @@
     <Compile Include="Assets\PSXEffects\Scripts\New Folder\FlyCamera.cs" />
     <Compile Include="Assets\PSXEffects\Scripts\PSXEffects.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Scripts\ExitHouse.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\ExitPodezd.cs" />
+    <Compile Include="Assets\Scripts\RoomDoors.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Train_PA.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\DemoScripts\Respawner.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\CurveControlledBob.cs" />
@@ -98,8 +101,7 @@
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\FOVKick.cs" />
     <Compile Include="Assets\UrbanUnderground\Source\Scripts\Gate.cs" />
     <Compile Include="Assets\UrbanUnderground\Demo\Standard Assets\Characters\FirstPersonCharacter\Scripts\LerpControlledBob.cs" />
-    <Compile Include="Assets\Scripts\ExitHouse.cs" />
-    <Compile Include="Assets\Scripts\RoomDoors.cs" />
+    <Compile Include="Assets\Scripts\StreetTeleport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
