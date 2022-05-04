@@ -43,7 +43,7 @@ public class RoomDoors : MonoBehaviour
 
 	void Update()
 	{
-		if (Vector3.Distance(player.position, this.transform.position) < 1.24f)
+		if (Vector3.Distance(player.position, this.transform.position) < 1.5f)
 		{
 			playerInRange = true;
 			if (Input.GetKeyDown(KeyCode.E))
